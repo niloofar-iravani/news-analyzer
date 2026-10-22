@@ -82,7 +82,7 @@ It checks the existing saved articles in a json file and saves the selected arti
 
 ## Running Tests
 
-**To run the tests, execute:** pytest test_project.py
+**To run the tests, execute:** pytest test_newsanalyzer.py
 
 ## Files
 
