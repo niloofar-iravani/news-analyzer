@@ -1,14 +1,42 @@
- # News Analyzer
-    #### Video Demo:  <https://youtu.be/k0UKW7Hsqu8>
-    #### Description: News Analyzer is a python project that allows users to search for news articles and analyze their contents,
-    filter articles based on keyword, source, and date, finilly saving that article if they want for later reading. It contains 6 functions, combined with a main function.
-    The project uses the News API to retrieve news articles and provide some text analysis, including word and sentences count, alongside showing
-    3 most common word.
+## News Analyzer
+News Analyzer is a Python command-line application that retrieves news articles using the News API and provides basic text analysis.
 
-## requirements
-- 'requests'
-- 'python-dotenv'
-- 'pytest'
+# Features
+- Fetch news articles by topic
+- Filter articles by keyword, source, and publication date
+- Analyze article text by counting words and sentences
+- Identify the three most frequent words
+- Save articles to a JSON file for later reading
+- Handle API errors, connection issues, and invalid input
+
+# Technologies
+- Python
+- News API
+- Requests
+- python-dotenv
+- JSON
+- pytest
+
+# Setup
+1. Install the required dependencies:
+
+pip install -r requirements.txt
+
+2. Create a .env file in the project directory and add your News API key:
+
+NEWS_API_KEY=your_api_key_here
+
+3. Run the application:
+
+python news_analyzer.py
+
+# Running Tests
+Run the test suite with:
+
+python -m pytest -v
+
+# Security
+Keep your .env file private. Never publish your API key in the repository.
 
 ## project structure and functions
 
