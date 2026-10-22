@@ -86,9 +86,9 @@ It checks the existing saved articles in a json file and saves the selected arti
 
 ## Files
 
-- 'project.py': Contains the main program and its functions.
+- 'news_analyzer.py': Contains the main program and its functions.
 
-- 'test_project.py': Contains tests for selected functions.
+- 'test_newsanalyzer.py': Contains tests for selected functions.
 
 - 'saved_articles.json': Stores saved articles and is created when articles are saved.
 
